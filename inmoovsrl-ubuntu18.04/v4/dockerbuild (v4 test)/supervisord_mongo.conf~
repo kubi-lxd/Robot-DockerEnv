@@ -1,0 +1,6 @@
+[program:mongodb]
+command=/usr/local/mongodb-linux-x86_64-ubuntu1604-4.2.2/bin/mongod
+autostart=true
+autorestart=true
+startsecs=2
+user=root
